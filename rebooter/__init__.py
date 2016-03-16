@@ -45,7 +45,8 @@ class Rebooter():
       else:
         command.append('/s')
       if delay:
-        command.append('/t %i' % delay)
+        command.append('/t')
+        command.append(str(delay))
       if reason is not None:
         command.append('/c "%s"' % reason)
       if force:
