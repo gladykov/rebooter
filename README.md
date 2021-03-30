@@ -4,7 +4,7 @@ Overview
 cross-platform module for reboot / restart and shutdown of current system.
 If you need it on Linux, 'sudo chmod u+s /sbin/shutdown' 'sudo chmod u+s /sbin/reboot' or modify sudoers file
 
-Usage
+sage
 -----
 
 Here's an example on how to use this module:
